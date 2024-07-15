@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        header {
+            background-color: #f75c14;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+
+        header nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        section#cursos {
+            padding: 20px 0;
+            background-color: #fff;
+        }
+
+        .curso {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .curso img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .curso h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .curso p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .curso a {
+            display: inline-block;
+            justify-content:space-between;
+            background-color: #052b7c;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+            
+            transition: background-color 0.3s;
+        }
+
+        .curso a:hover {
+            background-color: #6baefa;
+        }
+        .curso .info-curso {
+        margin-right: 20px;
+        }
+        .curso .info-tutor {
+        margin-right: 20px;
+        }
+       .curso .comprar {
+        margin-right: 20px;
+        }
+
+        footer {
+            background-color: #f02906;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cursos Online Network</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="cursos">
+        <div class="container">
+            <article class="curso">
+                <img src="C:\Users\Galo\Documents\Danny\Cursos\java1.jpg" width="450" height="450">
+                <h2> Curso de Java</h2>
+                <p>Domina Java desde cero hasta niveles avanzados con nuestro curso intensivo. Aprende desde fundamentos básicos hasta técnicas avanzadas de programación orientada a objetos y desarrollo de aplicaciones.</p>
+                <p>Precio: $60</p>
+                <p>Tutor: Danny Zambrano Diaz</p>
+                <p>Duracion:46 horas</p> 
+                <a href="#" class="info-curso">Informacion del curso</a>   
+                <a href="#"class="info-tutor" >Informacion del Tutor</a>
+                <a href="#" class="comprar">Comprar</a>
+           </article>
+            
+            <article class="curso">
+                <img src="C:\Users\Galo\Documents\Danny\Cursos\python.png" width="450" height="450">
+                <h2>Curso de Python</h2>
+                <p>Explora el poder de Python en nuestro curso completo. Desde los fundamentos básicos de sintaxis hasta programación avanzada de aplicaciones y análisis de datos.</p>
+                <p>Precio: $33</p>
+                <p>Tutor:Raquel Lugo Solorzano</p>
+                <p>Duracion:20 horas</p>
+                <a href="#" class="info-curso">Informacion del curso</a>   
+                <a href="#"class="info-tutor" >Informacion del Tutor</a>
+                <a href="#" class="comprar">Comprar</a>
+            </article>
+
+            <article class="curso">
+                <img src="C:\Users\Galo\Documents\Danny\Cursos\html-css.jpg" width="450" height="450">
+                <h2> Curso avanzado de Html y Css </h2>
+                <p>Curso avanzado diseñado para desarrolladores web que desean llevar sus habilidades en HTML y CSS al siguiente nivel. Explorarás técnicas avanzadas de diseño y maquetación, incluyendo Flexbox, CSS Grid, animaciones, y transiciones. </p>
+                <p>Precio: $25</p>
+                <p>Tutor: Marcos Lopez Bazurto</p>
+                <p>Duracion:35 horas</p>
+                <a href="#" class="info-curso">Informacion del curso</a>   
+                <a href="#"class="info-tutor" >Informacion del Tutor</a>
+                <a href="#" class="comprar">Comprar</a>
+            </article>
+
+            <article class="curso">
+                <img src="C:\Users\Galo\Documents\Danny\Cursos\bases de datos.png" width="450" height="450">
+                <h2>Curso de base de datos (Oracle)</h2>
+                <p>Este curso está diseñado para proporcionar una comprensión integral del sistema de gestión de bases de datos Oracle. Aprenderás a diseñar, implementar y gestionar bases de datos eficientes utilizando Oracle SQL y PL/SQL.</p>
+                <p>Precio: $30</p>
+                <p>Tutor:Jose Espinoza Tuarez</p>
+                <p>Duracion:55 horas</p>
+                <a href="#" class="info-curso">Informacion del curso</a>   
+                <a href="#"class="info-tutor" >Informacion del Tutor</a>
+                <a href="#" class="comprar">Comprar</a>
+            </article>
+
+            <article class="curso">
+                <img src="C:\Users\Galo\Documents\Danny\Cursos\sistemas operativos.png" width="450" height="450">
+                <h2> Curso de Redes y Sistemas Operativos</h2>
+                <p>Este curso ofrece una inmersión completa en los fundamentos de redes y sistemas operativos, proporcionando las habilidades necesarias para gestionar y optimizar entornos de TI. Aprenderás sobre la arquitectura de redes, protocolos de comunicación, configuración y administración de redes, así como la instalación, configuración y mantenimiento de sistemas operativos.</p>
+                <p>Precio: $44</p>
+                <p>Tutor:Gabriela Suarez Mendieta</p>
+                <p>Duracion:72 horas</p>
+                <a href="#" class="info-curso">Informacion del curso</a>   
+                <a href="#"class="info-tutor" >Informacion del Tutor</a>
+                <a href="#" class="comprar">Comprar</a>
+            </article>
+
+            <article class="curso">
+                <img src="C:\Users\Galo\Documents\Danny\Cursos\programacion-lineal.jpg" width="450" height="450">
+                <h2>Curso de Programacion Lineal</h2>
+                <p>Este curso proporciona una comprensión profunda de la programación lineal, una técnica clave en la optimización matemática. Aprenderás a formular y resolver problemas de optimización lineales, utilizando herramientas y métodos como el método simplex, la dualidad y el análisis de sensibilidad.</p>
+                <p>Precio: $37</p>
+                <p>Tutor:Luis Enriquez Pacheco</p>
+                <p>Duracion:36 horas</p>
+                <a href="#" class="info-curso">Informacion del curso</a>   
+                <a href="#"class="info-tutor" >Informacion del Tutor</a>
+                <a href="#" class="comprar">Comprar</a>
+            </article>
+
+            <article class="curso">
+                <img src="C:\Users\Galo\Documents\Danny\Cursos\algebra avanzada.png" width="450" height="450">
+                <h2>Curso de Algebra Avanzada</h2>
+                <p>Este curso profundiza en los conceptos y técnicas avanzadas del álgebra, ideal para estudiantes que buscan fortalecer su comprensión en esta área.</p>
+                <p>Precio: $80</p>
+                <p>Tutor:Andy Castro Molina</p>
+                <p>Duracion: 50 horas</p>
+                <a href="#" class="info-curso">Informacion del curso</a>   
+                <a href="#"class="info-tutor" >Informacion del Tutor</a>
+                <a href="#"class="comprar">Comprar</a>
+            </article>
+            
+     
+        </div>
+    </section>
+</body>
+
+
+
+
+    <footer>
+       <p>&copy; 2024 Venta de Cursos Online</p>
+        </div>
+    </footer>
+
+
+</html>
